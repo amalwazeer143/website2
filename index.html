@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web23</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+         #web1{
+            padding:20px;
+            background-color: #072541;
+            color:azure;
+            padding-left: 100px;
+            border-left:solid 20px white;
+            font-size: small;
+            position:sticky;
+
+        }
+        span{
+            padding-left:25px;
+            border-left:solid 1px;
+        }
+        .icon{
+            color: yellow;
+            margin-right:10px ;
+        }
+    
+    
+        #web{
+            padding:10px;
+            display:inline-block;
+        
+        }
+        #web ol li{
+            list-style-type:none;
+            float:left;
+            padding:20px;
+        
+        }
+        #web ol li a{
+         text-decoration:none;
+         color:black;
+        }
+       #web ol li:hover a{
+        color: rgb(202, 193, 63);
+
+       }
+       nav ol li ol{
+        display:none;
+     }
+
+
+     
+    nav ol li ol li{
+        clear:both;
+        background-color: #072541;
+        width:100%;
+        color:black;
+        
+
+    }
+    nav ol li ol li{
+      color:black;
+    }
+    nav ol li:hover ol { 
+        display: block;
+        position:absolute;
+        color:rgb(202, 193, 63);
+    
+    }
+    nav ol li ol li ol li{
+        display:none;
+        position: relative;
+        margin-left: 100px;
+        text-align: center;
+    }
+    nav ol li ol li:hover  ol li {
+        display: block;
+    }
+    .navicon{
+    
+        
+        display: none;
+    }
+
+    @media only screen and (max-width:700px){
+    #web ol li 
+        {
+          display: none;
+        }
+      .navicon{
+        margin-left:100px;
+        display:inline-block;
+        font-size: large;
+        
+
+      }
+      #web1>span>.icon{
+        display: none;
+    
+      }
+    
+      .textimg{
+        gap:100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .map{
+        margin-top:600px;
+      }
+       .container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+       }
+       .content2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+       }
+    
+    
+       .secpara{
+        display:none;
+        
+       }
+
+
+    }
+    
+
+      .img{
+        width:100%;
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-image: url(BB.jpeg) ;
+      }
+      div h1{
+        color:beige;
+        padding-left:60%;
+        padding-top: 10%;
+     }
+     div p{
+        color: beige;
+        padding-left: 50%;
+        padding-top: 10%;
+     }
+     span img{
+        margin-left:70% ; 
+    
+    
+     }
+       #button{ 
+        margin-top:50px ;
+        border:solid 2px black;
+        width: 300px;
+        height:50px; 
+         margin-left:200px;
+       }
+       #button>div{
+        padding-top:10px ;
+        text-align: center;
+        background-color: #fdc800;
+        width: 300px;
+        height:50px; 
+         margin-left:-20px;
+         margin-top:-10px;
+       }
+       .container{
+        background-color: white;
+
+        
+       }
+       
+     
+       
+     .Latest .heading{
+        font-size:35px;
+        padding:50px;
+        margin-left:37% ;
+        color: #002147;
+        font-style: bold;
+     }
+     .Latest .secpara{
+        margin-left:450px;
+     }
+     .content1{
+        background-color:whitesmoke;
+        display: flex;
+        justify-content: space-around;
+     }
+     .content1 div{
+        height:400;
+        width:400px;
+     }
+     
+      .p1{
+        width: 300px;
+        height: 200px;
+        border-left:solid 5px  #fdc800;
+        text-align: center;
+        padding-left: 15px;
+
+      }
+     
+     .container{
+        display: flex;
+        justify-content: space-around;
+        margin-top:50px;
+     }
+     .content2{ background-color:whitesmoke;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+
+     }
+     .content2 div{
+        height:400;
+        width:400px;
+
+     }
+      .textimg{
+        display: flex;
+        justify-content: space-around ;
+
+      }
+      .text1{
+        width: 50%;
+        height:100px;
+        text-align: center;
+      }
+        
+    
+
+    </style>
+</head>
+<body>
+    <div id="web1"> <i class="fas fa-headphones icon"></i>+92(21)99201005-7 <span><i class="fa fa-envelope icon"></i>feedback@bbshrrdb.pk</span>
+    
+    <span><i class='fab fa-instagram icon'></i></span>
+     <span><i class='fab fa-facebook-f icon'></i></span>
+    <span><i class='fab fa-linkedin icon'></i></span>
+</div>
+    
+    <img src="logo.png">
+    <nav id="web">
+        <ol>
+       <li><a href="">HOME</a>
+       <ol><li><a href="">about us</a></li>
+        <li><a href="">the head office</a>
+           <ol><li><a href="">In hyderabad</a> </li>
+            </ol></li>
+
+        <li><a href="">distric</a></li>
+        <li><a href="">programming</a></li>
+        <li><a href="">staff director</a></li>
+    </ol></li>
+       <li><a href=""> THEBOARD</a></li>
+       <li><a href="">SECTORS</a></li>
+       <li><a href="">FMIS</a></li>
+       <li><a href="">ANOUNCEMENT</a></li>
+       <li><a href="">CONTACTUS</a></li>
+       <li><a href="">APPLYONLINE</a></li>
+    </ol>
+    <div class="navicon"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <div class="img">
+            <h1>Welcome To BBSHRRDB</h1>
+            <p> The Benazir Bhutto Shaheed Youth Development Program [BBSYDP], initiated in 2008-09 by Government of Sindh, has been passed on to Benazir Bhutto Shaheed Human Resource Research & Development Board[BBSHRRDB]
+            </p> 
+            
+
+
+            
+
+        </div>
+         <div class="textimg">
+            <div class="text1">
+                The Benazir Bhutto Shaheed Youth Development Program [BBSYDP], initiated in 2008-09 by Government of Sindh, has been passed on to Benazir Bhutto Shaheed Human Resource Research & Development Board[BBSHRRDB], established through Act of Assembly, Sindh 2013 as a public service initiative to develop human resource in Sindh by empowering youth (aged between 18-35 years) with employable skill sets that will multiply work avenues for them.
+
+             Youth population in Sindh is estimated at 55.7 and out of this youth population 1.7 million are unemployed. A large cohort of youth is unemployed as they do not have skills to compete in the job market. Skills development is an important step to promote employment generation; increase in number of skillful youth would increase per capita income, thus give boost to economy of province
+
+              BBSHRRDB has groomed 470,000+ youth in 89 employment sectors plus 230 trades/ courses sand shaped the youth as an economic asset for the province. BBSHRRDB takes pride in ensuring implementation of standardized skill development training so that each man and woman would get equal opportunity. This approach would bring lucrative results in human resource development.
+            
+            </div>
+
+
+      
+    <div class="map"><img src="information-about-sindh.jpg"></div>
+    
+       
+     </div>
+        
+    <div id="button">
+        <div>MORE ABOUT BBSHRRDB</div>
+    </div>
+
+
+<div class="container">
+
+    <div class="p1"><h2>Short Term TrainingsShort Term Trainings</h2>
+        BBSHRRDB offers short term training programs, 4 to 6 month skill oriented technical and vocational trades in reputable institutions.</div>
+    <div class="p1"><h2>Long Term Trainings</h2>
+        BBSHRRDB offers long term trainings, 1 to 4 years diploma /degree programs in reputable colleges and universities</div>
+    <div class="p1"><h2>On Job Trainings</h2>
+        BBSHRRDB offers on job trainings in different sectors like health, automobiles, idustries, airline, and garments industry</div>
+</div>
+
+<div class="Latest">
+    <div class="heading">Latest Updates</div>
+       <div class="secpara">Latest Events, Visits, Certificate Distribution Ceremonies and News.</div>
+   </div>
+
+
+
+<div class="content1">
+    <div><img src="RS_Visit_Sukkur_23_1.jpg">
+        <div>JANUARY 23, 2023
+        Sindh College of Science, Commerce & Technology
+        Secretary BBSHRRDB along with Regional Consultant for Sukkur region visited on going training of ECE trade</div>
+    </div>
+    <div><img src="SEC_VISIT_12122022.jpg">
+        <div>Secretary BBSHRRDB Riaz Hussain Soomro visited public sector training in Mehran University Jamshoro along with Eng. Taimoor Siyal (Regional Consultant to C.M), Sikandar Bhatti (D.D. Public Sector) and Assistant Director Monitoring Jamshoro.</div>
+    
+    </div>
+    <div><img src="SEC_VISIT_24012023.jpg">
+        <div>Secretary BBSHRRDB along with RC Sukkur region visited on going trainings of ECE long duration course in Larkana district.</div>
+    
+    </div>
+
+</div>
+<div class="content2">
+    <div><img src="CER_SBA_08122022.jpg">
+    <div>arranged by Muskan Institute SBA, Commissioner SBA Mr. Abdul Aleem Lashari distributed certificates among the passout trainees.</div>
+    </div>
+    <div><img src="SEC_VISIT_240120231.jpg">
+        <div>Secretary BBSHRRDB distributed prize among who got positions in monthly test at RC Sukkur, AD Khairpur, Sukkur, and Qambar were also present</div>
+    
+    </div>
+    <div><img src="SEC_VISIT_26122022.jpg">
+    <div>MPA Hina Dastagir, Coordinator and Nominee to C.M. Sindh along with MPA Ms. Heer Soho attended closing ceremony at Mirpur Bathoro and awarded certificates to successful trainees.</div>
+</div>
+
+
+    
+<body>
+</html>
